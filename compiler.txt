@@ -1,0 +1,2 @@
+g++ main.cpp SimulationManager.cpp common/protocol.cpp controller/ControllerEngine.cpp controller/ResponseHandler.cpp controller/WaferTracker.cpp SimulationLogger.cpp -o simulation.exe
+
