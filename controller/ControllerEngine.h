@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 class ControllerEngine
 {
@@ -9,4 +10,7 @@ public:
     void startWorkflowB();
 
     void startBatchWorkflow(int wafers);
+
+    void sendCommand(
+        const std::string& command);
 };

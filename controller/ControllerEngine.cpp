@@ -23,3 +23,12 @@ void ControllerEngine::startBatchWorkflow(
     << wafers
     << std::endl;
 }
+
+void ControllerEngine::sendCommand(
+    const std::string& command)
+{
+    std::cout
+        << "[CONTROLLER] Sending -> "
+        << command
+        << std::endl;
+}
